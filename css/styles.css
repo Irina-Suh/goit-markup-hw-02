@@ -3,7 +3,7 @@ body {
     color: #434455;
     background-color: #fff;
 }
-/*.logo-web{
+.webstudio{
 font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -12,7 +12,7 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #4d5ae5;
 }
-    */
+    
   
 .logo-studio{
 font-family: "Raleway", sans-serif;
@@ -52,7 +52,8 @@ address{
         line-height: 150%;
         letter-spacing: 0.02em;
 }
-.contacts:hover {
+.contacts:hover,
+.contacts:focus {
     color: #404bbf;
 }
 
@@ -74,7 +75,7 @@ address{
     letter-spacing: 0.02em;
     color: #404bbf;
 }
-.Solutions{
+.solutions{
     background: #2e2f42;
 }
 h1{
@@ -87,13 +88,13 @@ h1{
         color: #fff;
 }
 .btn {
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+/*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
 background: #4d5ae5;
 cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+/*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
     background: #404bbf;
 }
 .name-btn {
@@ -138,7 +139,11 @@ font-family: "Roboto", sans-serif;
     color: #434455;
 }
 .team{
-    background: #FFFFFF /*#f4f4fd; */
+    background: #f4f4fd; 
+}
+.list-team{
+/*box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);*/
+    background: #fff;
 }
 
 
