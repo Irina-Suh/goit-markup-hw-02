@@ -23,7 +23,7 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #2e2f42;
 }
-.name-list-web {
+.list-web {
 font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -91,20 +91,23 @@ h1{
 /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
 background: #4d5ae5;
 cursor: pointer;
+font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    /*#fff;*/
 }
 .btn:hover,
 .btn:focus {
 /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
     background: #404bbf;
 }
+/*}
 .name-btn {
-    font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.04em;
-        color: #ffffff; /*#fff;*/
-}
+    
+}*/
 
 ul {
     list-style-type: none;
@@ -194,7 +197,7 @@ font-family: "Roboto", sans-serif;
 .pidval{
     background: #2e2f42;
 }
-.logo-web-pidval{
+.webstudio-pidval{
 font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
